@@ -1,0 +1,27 @@
+{% extends "personal/header.html" %}
+
+{% block content %}
+
+<div id="RandomQuestionGenerator">
+	<h1 align="center">Random Question Generator</h1>
+	<div id="Quiz">
+
+			<h3 id="QText"></h3>
+
+		<br/>
+		<form>
+			<div class="container-fluid">
+				<input id="Button" type="button" value="Check my answer" onclick="checkAnswer()"/>
+
+				<select class="well" id="choices">
+					<option value="">Choose the Answer</option>
+				</select>
+			</div>
+			<input id="Button" type="submit" value="Next question" onclick="nextQuestion()"/>
+		</form>
+	</div>
+</div>
+
+
+
+{% endblock %}
