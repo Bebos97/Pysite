@@ -1,0 +1,105 @@
+ul{
+	z-index: 1;
+}
+#content{
+    margin-top: 20%;
+	min-width: 50%;
+	min-height: 95%;
+	-webkit-box-shadow: 0px 15px 50px -10px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 15px 50px -10px rgba(0,0,0,0.5);
+	box-shadow: 0px 15px 50px -10px rgba(0,0,0,0.5);
+}
+#Portfolio{
+    font-size: 30px;
+    text-align: center;
+}
+#main{
+	margin-right: auto;
+	height: 10%;
+    width: 40%;
+	font-size: 20px;
+}
+#logo{
+    float: left;
+    height: auto;
+    width: auto;
+    margin-left: auto;
+	margin-right: auto;
+}
+
+#container1{
+	-webkit-box-shadow: 0px 15px 20px -10px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 15px 20px -10px rgba(0,0,0,0.5);
+	box-shadow: 0px 15px 20px -10px rgba(0,0,0,0.5);
+}
+
+#caption{
+    text-align: center;
+    color: black;
+    font-size: 20;
+}
+.footerLists{
+	float: left;
+	width: 100%;
+}
+.footerList{
+	color: black;
+	display: inline;
+	list-style: none;
+}
+#blogContent{
+	margin: 30px;
+	width: 100%;
+    height: 200px;
+}
+
+a{
+	color: #ff9999;
+}
+a:link{
+	color: #ff9999;
+	text-decoration: none;
+}
+a:visited{
+	color: #ff9999;
+}
+a:active{
+	color: #d9534f;
+	opacity: 0.8;
+}
+a:hover{
+	color: #d9534f;
+}
+i{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+i:hover
+{
+	border-radius: 100%;
+	-webkit-animation-fill-mode:forwards; /*Chrome 16+, Safari 4+*/
+	-moz-animation-fill-mode:forwards; /*FF 5+*/
+	-o-animation-fill-mode:forwards; /*Not implemented yet*/
+	-ms-animation-fill-mode:forwards; /*IE 10+*/
+	animation-fill-mode:forwards; /*when the spec is finished*/
+	-webkit-animation-name: iconsHighlight; /* Chrome, Safari, Opera */
+	-webkit-animation-duration: 0.3s; /* Chrome, Safari, Opera */
+	animation-name: iconsHighlight;
+	animation-duration: 0.3s;
+}
+/* Chrome, Safari, Opera */
+@-webkit-keyframes iconsHighlight {
+    from {-webkit-box-shadow: 0px 0px 0px -4px rgba(0,0,0,0.75);
+			 	-moz-box-shadow: 0px 0px 0px -4px rgba(0,0,0,0.75);
+				box-shadow: 0px 0px 0px -4px rgba(0,0,0,0.75);}
+		to {-webkit-box-shadow: 0px 15px 10px -3px rgba(0,0,0,0.75);
+				-moz-box-shadow: 0px 15px 10px -3px rgba(0,0,0,0.75);
+				box-shadow: 0px 15px 10px -3px rgba(0,0,0,0.75);}
+}
+
+hr{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+

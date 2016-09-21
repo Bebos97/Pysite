@@ -1,0 +1,14 @@
+{% extends "personal/header.html" %}
+
+{% block content %}
+    {% for post in object_list %}
+<div id="blogContent">
+		<div style=" padding: 20px;">
+			<h1><a href="/blog/{{ post.id }}"> {{ post.title }}</a></h1>
+		</div>
+		<div style=" padding: 20px">
+			at {{ post.date|date:"d-M-Y" }}
+		</div>
+</div>
+    {% endfor %}
+{% endblock %}

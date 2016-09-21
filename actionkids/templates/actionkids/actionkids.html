@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+{% load staticfiles  %}
+<html>
+<link rel="shortcut icon" href="{% static 'actionkids\Images\mini-logo.png' %}" />
+    
+    <head>
+        <meta charset="utf-8"/>
+        <title>Action Kids</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+        <link rel="stylesheet" href="{% static 'actionkids\css\style.css' %}" type="text/css"/>
+        <link href="https://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+
+
+    </head>
+        <body>
+            <div id="logo">
+                    
+                    <img src="Images\action-kids.png" alt="Action Kids" width="100%">
+            </div>
+            
+            
+                <div id="login">
+                    
+                    <ul>
+                        
+                    <li><a href="#">Click to Register</a></li>
+                        
+                    <li><a href="Login.html">Click to Login</a></li>
+                    
+                    </ul>
+                
+                </div>
+        
+                <div id="ad">
+                    
+                </div>
+            
+            <div class="menu1">
+                
+            </div>
+            <div class="menu">
+                    
+                <div class="option"><a href="{ 'home' }">Home</a></div>
+                <div class="option"><a href="Offers.html">Offers</a></div>
+                <div class="option"><a href="UpcomingTrips.html">Upcoming Trips</a></div>
+                <div class="option"><a href="News.html">News</a></div>
+                <div class="option"><a href="Info.html">Info</a></div>
+
+                
+            </div>
+
+            <footer>
+                <Address>
+                        <div class="contactDetails">
+                        Daniel Buszta<br />
+                        Action Kids<br />
+                        Copyright &copy; 2016 Action Kids<br />
+                        </div>
+                        <div class="Address">
+                        Address: Lichfield St, Burton Upon Trent DE14 3RL<br />
+                        <a style="background-color: white; font-size: 60%; border-radius: 5px" href="tel: +441283494400">tel: 01283 494400</a>
+                        </div>
+                </Address>
+            </footer>
+        
+            <script src="{ jquery-1.12.1.min.js }"></script>
+            <script>                
+                $(document).ready(function()
+                    {
+                        var NavY = $(".menu").offset().top;
+                    
+                        var stickyNav = function()
+                        {
+                            var ScrollY = $(window).scrollTop();
+                            
+                            if (ScrollY >=  NavY)
+                            {
+                                $(".menu1").addClass("indexing");
+                                $(".menu").addClass("sticky");
+                            } 
+                            
+                            else
+                            {
+                                $(".menu1").removeClass("indexing");
+                                $(".menu").removeClass("sticky");
+                            }
+                            
+                        };
+                    
+                    
+                    
+                    $(window).scroll(function()
+                    {
+                        stickyNav()
+                    });
+                    
+                    });
+            </script>
+        
+        </body>
+</html>

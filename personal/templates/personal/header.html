@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Daniel Buszta's Portfolio</title>
+    {% load staticfiles %}
+    <link rel='stylesheet' href="{% static 'personal/css/bootstrap.css' %}" type="text/css"/>
+	<link rel='stylesheet' href="{% static 'personal/css/style.css' %}" type="text/css"/>
+	<link rel='stylesheet' href="{% static 'personal/icons/flaticon.css' %}" type="text/css" />
+    <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+    <script src="{% static 'personal/js/bootstrap.js' %}"></script>
+	<script src="{% static 'personal/js/javaScript.js' %}"></script>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,900&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+
+	<style>
+		html,
+		body{
+			background: whitesmoke;
+			height: 100%;
+			width: 100%;
+			font-family: 'Lato', sans-serif;
+		}
+	</style>
+
+</head>
+
+<body class="body">
+    <nav id="container1" class="navbar navbar-fixed-top" role="navigation" style="background: url({% static 'personal/img/congruent_pentagon.png' %})">
+			<div id="logo" align="center">
+				<img id="logoImg" style=" height: 100px;" src="{% static 'personal/img/DB.png' %}">
+			</div>
+			<div  id="main" class="container">
+				<ul class="nav nav-pills nav-justified">
+					<li><a href="/">Home</a></li>
+					<li><a href="/contact/">Contact</a></li>
+					<li role="presentation" class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="true">Projects <span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li class=""><a href="/blog/">Blog</a></li>
+						<li class=""><a href="/actionkids/">Action Kids</a></li>
+					</ul>
+					</li>
+				</ul>
+			</div>
+	</nav>
+
+	<div id="content" class="well container-fluid">
+			{% block content %}
+			{% endblock %}
+	</div>
+    
+    <footer class="container" style="margin-top: 5%;">
+        <div class="container">
+			<div class="footerLists">
+
+				<div style="position: relative; width: 50%; margin-left: auto;margin-right:auto;">
+					<hr>
+					<p id="caption">Websites Made With Passion</p>
+					<hr>
+				</div>
+
+				<div style="float: left; width: 100%; text-align: center;">
+						<a href="https://www.linkedin.com/in/daniel-buszta-383b64122?trk=nav_responsive_tab_profile" target="_blank">
+							<i class="flaticon-linkedin"></i>
+						</a>
+						<a href="https://github.com/Bebos97" target="_blank">
+							<i class="flaticon-github"></i>
+						</a>
+						<a href="https://plus.google.com/u/0/102678433034284073087" target="_blank">
+							<i class="flaticon-social"></i>
+						</a>
+				</div>
+			</div>
+        </div>
+
+		<div class="footerList">
+			<small>
+				<li class="footerList">&copy;2016 Daniel Buszta 🐍</li> |
+				<li class="footerList"><a href="https://www.djangoproject.com/" target="_blank">Powered by Django</a></li>
+				<dl class="contact" style="float: right;">
+					<dd><a href="/contact/" target="blank"><span class="glyphicon glyphicon-phone"> </span> Contact me</a></dd>
+				</dl>
+			</small>
+		</div>
+    </footer>
+
+</body>
+
+</html>
