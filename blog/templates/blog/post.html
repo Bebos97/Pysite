@@ -2,13 +2,13 @@
 
 {% block content %}
 <div>
-        <div style="float: left;"><h3>{{ post.title }}</h3></div>
+        <div align="center" style="width: 100%;"><h3>{{ post.title }}</h3></div>
 </div>
 <div>
-        <div style="float: left;"><p>{{ post.body|safe|linebreaks }}</p></div>
+        <div style="width: 100%; float: left;"><p>{{ post.body|safe|linebreaks }}</p></div>
 </div>
 
 <div>
-        <div style="float: right;"><h6>{{ post.date }}</h6></div>
+        <div style=" float: right;"><h6>{{ post.date }}</h6></div>
 </div>
 {% endblock %}
