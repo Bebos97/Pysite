@@ -1,21 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66e065b3-05b7-4412-993a-8ca5f53dfb6d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RandomQuestionGenerator/templates/RandomQuestionGenerator/rqg.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RandomQuestionGenerator/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+    <list default="true" id="66e065b3-05b7-4412-993a-8ca5f53dfb6d" name="Default" comment="Random Question Generator added,&#10;Some look improvements">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/personal/static/personal/css/style.css" afterPath="$PROJECT_DIR$/personal/static/personal/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/personal/static/personal/js/javaScript.js" afterPath="$PROJECT_DIR$/personal/static/personal/js/javaScript.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/personal/templates/personal/contact.html" afterPath="$PROJECT_DIR$/personal/templates/personal/contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/personal/templates/personal/header.html" afterPath="$PROJECT_DIR$/personal/templates/personal/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/personal/templates/personal/home.html" afterPath="$PROJECT_DIR$/personal/templates/personal/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/personal/views.py" afterPath="$PROJECT_DIR$/personal/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pysite/settings.py" afterPath="$PROJECT_DIR$/pysite/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pysite/urls.py" afterPath="$PROJECT_DIR$/pysite/urls.py" />
     </list>
     <list id="76f64ece-7b76-4698-8afb-31dc772958ec" name="New changelist" comment="Content alignment" />
+    <list id="cbc781c1-3c29-4b3b-9818-16607a1f0bfc" name="BlabLa" comment="" />
     <ignored path="pysite.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,8 +27,8 @@
       <file leaf-file-name="javaScript.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/personal/static/personal/js/javaScript.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-145">
-              <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
+            <state relative-caret-position="235">
+              <caret line="57" column="18" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -63,6 +53,11 @@
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="AUTO_COMMIT_ON_CHERRY_PICK" value="true" />
     <option name="FORCE_PUSH_ALLOWED" value="true" />
   </component>
@@ -86,9 +81,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="600" />
-    <option name="y" value="41" />
-    <option name="width" value="728" />
+    <option name="x" value="17" />
+    <option name="y" value="31" />
+    <option name="width" value="1341" />
     <option name="height" value="693" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -285,10 +280,11 @@
     <configuration />
   </component>
   <component name="ToolWindowManager">
-    <frame x="600" y="41" width="728" height="693" extended-state="0" />
+    <frame x="17" y="31" width="1341" height="693" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28696924" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3814433" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32882884" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -335,7 +331,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Contact Form and fixed some elements positions and bugs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Contact Form and fixed some elements positions and bugs" />
+    <MESSAGE value="Random Question Generator added,&#10;Some look improvements" />
+    <option name="LAST_COMMIT_MESSAGE" value="Random Question Generator added,&#10;Some look improvements" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -672,8 +669,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/personal/static/personal/js/javaScript.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-145">
-          <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
+        <state relative-caret-position="235">
+          <caret line="57" column="18" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="18" />
           <folding />
         </state>
       </provider>
