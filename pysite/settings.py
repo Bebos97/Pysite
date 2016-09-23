@@ -34,6 +34,7 @@ INSTALLED_APPS = [
     'personal',
     'blog',
     'actionkids',
+    'RandomQuestionGenerator',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

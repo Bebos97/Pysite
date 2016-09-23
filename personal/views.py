@@ -42,7 +42,6 @@ def contact(request):
             )
             email.send()
             send_mail('New contact form submission', form_content, contact_email, ['danielbuszta@gmail.com'], fail_silently=False)
-            return render(request, 'personal/contact.html')
 
     return render(request, 'personal/contact.html', {
         'form': form_class,

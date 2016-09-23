@@ -2,13 +2,13 @@
 {% block title %}Contact - {{ block.super }}{% endblock %}
 
 {% block content %}
-        <h2 align="center">Contact Form</h2>
+        <h1 align="center">Contact Form</h1>
 
         <form role="form" action="" method="post">
                 {% csrf_token %}
                 <div class="form-group">
                         {{ form.as_p }}
-                        <button type="submit">Submit</button>
+                        <button id="Button" type="submit">Submit</button>
                 </div>
         </form>
 {% endblock %}

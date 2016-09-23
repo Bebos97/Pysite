@@ -22,4 +22,5 @@ urlpatterns = [
     url(r'^', include('personal.urls')),
     url(r'^blog/', include('blog.urls')),
     url(r'^actionkids/', include('actionkids.urls')),
+    url(r'^RandomQuestionGenerator/', include('RandomQuestionGenerator.urls')),
 ]
